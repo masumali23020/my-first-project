@@ -1,0 +1,128 @@
+*{
+box-sizing:border-box;	
+	
+	
+}
+body{
+	margin:0;
+	padding:0;
+}
+/* for desktop */
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:8.33%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+/* logo dising start */
+.logo{
+float:left;
+	
+}
+.heading{text-align:right;}
+.conten-manu{flex-direction:row;justify-content:end;}
+.conten-manu a{padding:5px 10px;margin:20px 0;background:transparent;}
+/* logo dising end */
+/*profle dising start */
+.profile .top-weather-icon{
+	top:30px;
+width: 120px;
+	right: 100px;
+	transition: width 2s, transform 2s;
+}
+.profile .top-weather-icon:hover{
+width:150px;
+
+}
+.profile .buttom-weather-icon{
+	bottom: 20px;
+	width: 120px;
+	left: 60px;
+	transition: transform 2s;
+}
+.profile .buttom-weather-icon:hover{
+	width:110px;
+
+}
+
+.profile-disc p{
+	color: gray;
+	margin: 0 auto;
+	text-align: center;
+	clear: both;
+	margin-bottom: 22px;
+	width: 50%;
+	}
+
+
+
+/*profle dising start */
+/* about me desing start */
+.about-me .aboutme-img img{
+	height: 270px;
+	width: 300px;
+	margin-top: 100px;
+}
+.about-dic p{
+	text-align: left;
+}
+
+
+
+/* about me desing start */
+/* profestional experience start */
+.profesonal-expriens{
+padding:1% 5% ;
+
+}
+
+
+/* profestional experience end */
+/* acivement start */
+
+.contack-me  button:hover{
+	width: 120px;
+	background-color: #065f64;
+}
+.More-contac{
+text-align: center;
+position: relative;
+
+}
+
+
+.media-button{
+position: absolute ;
+top:50%;
+left: 40%;
+margin-top: 100px;
+
+transform: translate(-50%-50%);
+text-align: center;
+
+}
+.media-button button{
+	margin-right: 20px;
+}
+
+/* 
+/* acivement end */
+
+/* foter mabu start */
+.footer-manu a{
+display: inline;
+font-size: 1rem;
+}
+.footer-manu{
+
+margin-top: 20px;
+
+}
+
+/* footer manu end  */
